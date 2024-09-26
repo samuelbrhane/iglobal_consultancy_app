@@ -8,6 +8,7 @@ import {
   faTiktok,
   faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 export const metadata: Metadata = {
   title: "iGlobal Visa Consultancy | Your Trusted Visa Partner",
@@ -86,6 +87,16 @@ export default function RootLayout({
                 className="text-[#9eaf2b] hover:text-blue-500"
               >
                 <FontAwesomeIcon icon={faTelegramPlane} size="lg" />
+              </a>
+            </li>
+            <li>
+              <a
+                href="mailto:study@iglobalvisa.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#9eaf2b] hover:text-blue-500"
+              >
+                <FontAwesomeIcon icon={faEnvelope} size="lg" />
               </a>
             </li>
           </ul>

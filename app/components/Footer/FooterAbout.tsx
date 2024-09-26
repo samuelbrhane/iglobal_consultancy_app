@@ -10,6 +10,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const FooterAbout = () => {
   return (
@@ -63,6 +64,14 @@ const FooterAbout = () => {
             className="text-[#9eaf2b] hover:text-blue-500"
           >
             <FontAwesomeIcon icon={faTelegramPlane} size="lg" />
+          </a>
+          <a
+            href="mailto:study@iglobalvisa.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#9eaf2b] hover:text-blue-500"
+          >
+            <FontAwesomeIcon icon={faEnvelope} size="lg" />
           </a>
         </div>
       </div>
