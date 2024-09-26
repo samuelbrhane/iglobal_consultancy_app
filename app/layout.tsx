@@ -10,7 +10,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 export const metadata: Metadata = {
-  title: "IGlobal Visa Consultancy | Your Trusted Visa Partner",
+  title: "iGlobal Visa Consultancy | Your Trusted Visa Partner",
   description:
     "Providing top-notch immigration and educational visa consultancy services worldwide. Let us help you achieve your dreams with ease.",
 };

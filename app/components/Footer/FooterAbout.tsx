@@ -27,7 +27,7 @@ const FooterAbout = () => {
         <div className="h-1 w-12 rounded bg-blue-500 mb-4"></div>
 
         <p className="mb-4">
-          IGlobal Visa Consultancy is a global firm specializing in expert visa
+          iGlobal Visa Consultancy is a global firm specializing in expert visa
           and immigration guidance. We help individuals and businesses navigate
           international expansion smoothly and efficiently.
         </p>
