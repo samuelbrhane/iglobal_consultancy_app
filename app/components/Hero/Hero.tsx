@@ -88,7 +88,7 @@ const Hero = () => {
           you turn your aspirations into reality.
         </motion.p>
 
-        <a href="https://apply.iglobalvisa.com/" rel="noopener noreferrer">
+        {/* <a href="https://apply.iglobalvisa.com/" rel="noopener noreferrer">
           <motion.button
             ref={buttonRef}
             className="bg-blue-500 text-white font-semibold px-6 py-3 rounded-md"
@@ -98,7 +98,7 @@ const Hero = () => {
           >
             APPLY NOW
           </motion.button>
-        </a>
+        </a> */}
       </div>
     </div>
   );
