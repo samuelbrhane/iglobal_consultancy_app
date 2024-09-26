@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 const RightContent: React.FC = () => {
   return (
-    <div className="w-full md:w-1/2 flex flex-col justify-center text-black">
+    <div className="w-full lg:w-1/2 flex flex-col justify-center text-black">
       <motion.div
         className="mb-8"
         initial={{ opacity: 0, x: 50 }}

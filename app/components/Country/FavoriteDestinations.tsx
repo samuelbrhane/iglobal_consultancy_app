@@ -6,11 +6,11 @@ import { CountryCard } from ".";
 const FavoriteDestinations: React.FC = () => {
   return (
     <section
-      className="relative overflow-hidden bg-white opacity-90 px-4 md:px-6 lg:px-12"
+      className="relative overflow-hidden bg-white opacity-90 px-8 md:px-16 lg:px-24"
       id="countries"
     >
       <div className="absolute inset-0 bg-white opacity-40"></div>
-      <div className="relative container mx-auto px-4">
+      <div className="relative container mx-auto">
         <div className="text-center mb-8">
           <h5 className="text-2xl lg:text-4xl font-bold text-[#9eaf2b] font-[Lora]">
             Favorite Destination

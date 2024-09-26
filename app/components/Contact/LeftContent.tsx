@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 const LeftContent: React.FC = () => {
   return (
     <motion.div
-      className="w-full md:w-1/2"
+      className="w-full lg:w-1/2"
       initial={{ opacity: 0, x: -50 }}
       whileInView={{ opacity: 1, x: 0 }}
       viewport={{ once: false }}

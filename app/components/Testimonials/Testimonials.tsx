@@ -33,7 +33,7 @@ const TestimonialSection: React.FC = () => {
 
   return (
     <section
-      className="grid grid-cols-1 lg:grid-cols-2 py-16 px-4 md:px-6 lg:px-32 justify-center items-center"
+      className="grid grid-cols-1 lg:grid-cols-2 py-16 px-8 md:px-16 lg:px-24 justify-center items-center"
       id="testimonials"
     >
       {/* Left Side - Testimonial Card */}

@@ -7,10 +7,10 @@ import LeftContent from "./LeftContent";
 const ContactSection: React.FC = () => {
   return (
     <section
-      className="relative text-white py-4 md:py-12 lg:py-16 px-4 md:px-6 lg:px-12 bg-white opacity-[0.96]"
+      className="relative text-white py-4 md:py-12 lg:py-16 px-8 md:px-16 lg:px-24 bg-white opacity-[0.96]"
       id="contact"
     >
-      <div className="container mx-auto flex flex-col md:flex-row h-full gap-12 ">
+      <div className="container mx-auto flex flex-col lg:flex-row h-full gap-12 ">
         <LeftContent />
         <RightContent />
       </div>

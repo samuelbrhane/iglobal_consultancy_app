@@ -35,7 +35,7 @@ const HeroContent: React.FC = () => {
 
   return (
     <div
-      className="grid grid-cols-1 md:grid-cols-3 gap-4 lg:gap-8 mt-4 md:-mt-12 px-4 md:px-6 lg:px-12"
+      className="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-8 mt-4 md:-mt-12 px-8 md:px-16 lg:px-24"
       ref={ref}
     >
       {[

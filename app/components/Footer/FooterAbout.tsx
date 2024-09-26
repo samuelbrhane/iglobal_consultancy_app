@@ -4,10 +4,11 @@ import React from "react";
 import { motion } from "framer-motion";
 import {
   faFacebookF,
-  faInstagram,
-  faLinkedinIn,
-  faTwitter,
+  faTiktok,
+  faTelegramPlane,
+  faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const FooterAbout = () => {
@@ -31,17 +32,37 @@ const FooterAbout = () => {
           international expansion smoothly and efficiently.
         </p>
         <div className="flex space-x-8">
-          <a href="#" className="text-gray-400 hover:text-white">
+          <a
+            href="https://facebook.com/IGlobalVisa"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#9eaf2b] hover:text-blue-500"
+          >
             <FontAwesomeIcon icon={faFacebookF} size="lg" />
           </a>
-          <a href="#" className="text-gray-400 hover:text-white">
-            <FontAwesomeIcon icon={faTwitter} size="lg" />
+          <a
+            href="https://www.tiktok.com/@iglobalvisa"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#9eaf2b] hover:text-blue-500"
+          >
+            <FontAwesomeIcon icon={faTiktok} size="lg" />
           </a>
-          <a href="#" className="text-gray-400 hover:text-white">
-            <FontAwesomeIcon icon={faInstagram} size="lg" />
+          <a
+            href="https://chat.whatsapp.com/C5DM6uw0m29ABO3zAZjLjR"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#9eaf2b] hover:text-blue-500"
+          >
+            <FontAwesomeIcon icon={faWhatsapp} size="lg" />
           </a>
-          <a href="#" className="text-gray-400 hover:text-white">
-            <FontAwesomeIcon icon={faLinkedinIn} size="lg" />
+          <a
+            href="https://t.me/Iglobal_visa"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#9eaf2b] hover:text-blue-500"
+          >
+            <FontAwesomeIcon icon={faTelegramPlane} size="lg" />
           </a>
         </div>
       </div>

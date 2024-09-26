@@ -3,7 +3,7 @@ import React from "react";
 
 const FooterTop = () => {
   return (
-    <div className="flex justify-between items-center flex-col lg:flex-row px-4 md:px-8 lg:px-24 gap-8 bg-[#f8fbe9af] mt-6">
+    <div className="flex justify-between items-center flex-col lg:flex-row px-8 md:px-16 lg:px-24 gap-8 bg-[#f8fbe9af] mt-6 pt-4">
       <div>
         <h1 className="font-bold text-2xl mb-4 md:text-3xl lg:text-4xl font-[Lora]">
           Ready to apply for Visa?
@@ -13,7 +13,7 @@ const FooterTop = () => {
           <br />
           Submit your application by clicking "Apply Now Button".
         </p>
-        <div className="block py-4 text-white hover:bg-gray-200">
+        <div className="block py-4 text-white">
           <a href="https://apply.iglobalvisa.com/" rel="noopener noreferrer">
             <button className="bg-blue-500 text-white px-6 py-3 font-semibold rounded-md uppercase">
               Apply Now

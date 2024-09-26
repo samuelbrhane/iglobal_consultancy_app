@@ -1,6 +1,13 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Footer, Header } from "./components/Common";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebookF,
+  faTelegramPlane,
+  faTiktok,
+  faWhatsapp,
+} from "@fortawesome/free-brands-svg-icons";
 
 export const metadata: Metadata = {
   title: "IGlobal Visa Consultancy | Your Trusted Visa Partner",
@@ -39,6 +46,50 @@ export default function RootLayout({
       </head>
       <body>
         <Header />
+        <div className="left-0 top-1/2 transform -translate-y-1/2 z-50 bg-[#090610dc] px-1 py-2 rounded-sm hidden md:block fixed">
+          <ul className="space-y-4 px-1">
+            <li>
+              <a
+                href="https://facebook.com/IGlobalVisa"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#9eaf2b] hover:text-blue-500"
+              >
+                <FontAwesomeIcon icon={faFacebookF} size="lg" />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.tiktok.com/@iglobalvisa"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#9eaf2b] hover:text-blue-500"
+              >
+                <FontAwesomeIcon icon={faTiktok} size="lg" />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://chat.whatsapp.com/C5DM6uw0m29ABO3zAZjLjR"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#9eaf2b] hover:text-blue-500"
+              >
+                <FontAwesomeIcon icon={faWhatsapp} size="lg" />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://t.me/Iglobal_visa"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#9eaf2b] hover:text-blue-500"
+              >
+                <FontAwesomeIcon icon={faTelegramPlane} size="lg" />
+              </a>
+            </li>
+          </ul>
+        </div>
         {children}
         <Footer />
       </body>

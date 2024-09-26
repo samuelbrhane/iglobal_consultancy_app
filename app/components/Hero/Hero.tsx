@@ -58,7 +58,7 @@ const Hero = () => {
         </motion.h1>
         <motion.h3
           ref={h3Ref}
-          className="border-l-[15px] border-[#9eaf2b] text-xl lg:text-5xl pl-2 my-8"
+          className="border-l-[15px] border-[#9eaf2b] text-xl lg:text-5xl pl-2 my-8 lg:my-8 md:my-12"
           initial={{ x: -50, opacity: 0 }}
           animate={h3InView ? { x: 0, opacity: 1 } : { x: -50, opacity: 0 }}
           transition={{ duration: 1, delay: 0.5 }}
@@ -68,7 +68,7 @@ const Hero = () => {
         </motion.h3>
         <motion.h2
           ref={h2Ref}
-          className="text-xl lg:text-3xl font-bold text-center mt-2"
+          className="text-xl lg:text-3xl font-bold text-center mb-2 md:mb-8 lg:mb-4"
           initial={{ y: -50, opacity: 0 }}
           animate={h2InView ? { y: 0, opacity: 1 } : { y: -50, opacity: 0 }}
           transition={{ duration: 1, delay: 1 }}
@@ -78,7 +78,7 @@ const Hero = () => {
 
         <motion.p
           ref={pRef}
-          className="mt-4 text-center max-w-2xl text-[14px] md:text-lg mb-4 md:mb-8 lg:mb-4"
+          className="mt-4 text-center max-w-2xl text-[14px] md:text-lg mb-6 md:mb-12 lg:mb-8 px-8 md:px-12"
           initial={{ y: 50, opacity: 0 }}
           animate={pInView ? { y: 0, opacity: 1 } : { y: 50, opacity: 0 }}
           transition={{ duration: 1, delay: 1.5 }}

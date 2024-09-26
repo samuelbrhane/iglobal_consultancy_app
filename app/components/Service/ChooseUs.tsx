@@ -24,8 +24,8 @@ const ChooseUs: React.FC = () => {
   };
 
   return (
-    <section className="px-4 md:px-6 lg:px-12 opacity-95 pb-12">
-      <div className="container mx-auto py-20 shadow-custom px-8 md:px-12 lg:px-20 bg-white -mt-16 z-40">
+    <section className="px-8 md:px-16 lg:px-24 opacity-95 pb-12">
+      <div className="container mx-auto p-8 shadow-custom lg:p-20 bg-white -mt-16 z-40">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <motion.div
             ref={ref}

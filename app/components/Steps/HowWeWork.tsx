@@ -14,7 +14,7 @@ import {
 
 const HowWeWork: React.FC = () => {
   return (
-    <section className="px-4 md:px-6 lg:px-12 py-8 md:py-12 lg:py-16 opacity-[0.96] bg-white">
+    <section className="px-8 md:px-16 lg:px-24 py-8 md:py-12 lg:py-16 opacity-[0.96] bg-white">
       <div className="container mx-auto grid lg:grid-cols-2 gap-8">
         <div>
           <h2 className="text-3xl lg:text-4xl font-bold mb-4 text-[#9eaf2b] font-[Lora]">

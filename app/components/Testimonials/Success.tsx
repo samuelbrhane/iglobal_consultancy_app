@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const Success: React.FC = () => {
   return (
     <section
-      className="relative bg-fixed bg-center bg-cover py-40 px-4 md:px-12 lg:px-32"
+      className="relative bg-fixed bg-center bg-cover py-40 px-8 md:px-16 lg:px-24"
       style={{ backgroundImage: `url('/visa2.jpg')` }}
     >
       <div className="absolute inset-0 bg-black opacity-50 "></div>
@@ -13,7 +13,7 @@ const Success: React.FC = () => {
         <div className="lg:w-[60%]">
           {/* Animate the first headline */}
           <motion.h1
-            className="uppercase text-3xl mb-4 font-bold text-[#9eaf2b] font-[Lora]"
+            className="text-3xl mb-4 font-bold text-[#9eaf2b] font-[Lora]"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}

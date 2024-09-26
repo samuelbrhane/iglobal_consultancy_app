@@ -16,10 +16,10 @@ import {
 const ServicesSection: React.FC = () => {
   return (
     <section
-      className="bg-white py-12 opacity-[0.96] px-4 md:px-6 lg:px-12 "
+      className="bg-white py-12 opacity-[0.96] px-8 md:px-16 lg:px-24 "
       id="services"
     >
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto">
         <div className="text-center mb-8">
           <h2 className="text-2xl lg:text-4xl font-bold text-[#9eaf2b] font-[Lora]">
             Our Services
@@ -28,14 +28,9 @@ const ServicesSection: React.FC = () => {
             Visa Services Offered by{" "}
             <span className="text-blue-500">iGlobal Visa Consultancy</span>
           </h2>
-          {/* <p className="text-lg mt-2">
-            Explore our range of visa services and choose the one that best
-            suits your needs.
-          </p> */}
         </div>
 
-        {/* First row of cards */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
           <motion.div
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -45,7 +40,7 @@ const ServicesSection: React.FC = () => {
             <ServiceCard
               icon={faBriefcase}
               title="Work Visa"
-              description="For individuals seeking employment abroad, these visas allow you to work and reside in the host country for the duration of your job."
+              description="Work visas allow individuals to reside and work in another country for the duration of their job, according to specific country requirements."
             />
           </motion.div>
 
@@ -58,7 +53,7 @@ const ServicesSection: React.FC = () => {
             <ServiceCard
               icon={faGraduationCap}
               title="Study Visa"
-              description="If you want to study at an educational institution abroad, a study visa permits you to live and study in the host country throughout your course duration."
+              description="Study visas permit individuals to live and study abroad at recognized educational institutions for the duration of their academic program."
             />
           </motion.div>
 
@@ -71,13 +66,9 @@ const ServicesSection: React.FC = () => {
             <ServiceCard
               icon={faPlaneDeparture}
               title="Tourist Visa"
-              description="Tourist visas allow for temporary travel to a foreign country for leisure, tourism, or family visits."
+              description="Tourist visas grant temporary access for leisure travel, tourism, or short-term family visits in a foreign country."
             />
           </motion.div>
-        </div>
-
-        {/* Second row of cards */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
           <motion.div
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -87,7 +78,7 @@ const ServicesSection: React.FC = () => {
             <ServiceCard
               icon={faUserFriends}
               title="Family Visa"
-              description="These visas are for family members of individuals legally residing abroad, allowing them to live together with their relative."
+              description="Family visas allow relatives of individuals legally residing abroad to join them and live together in the host country."
             />
           </motion.div>
 
@@ -100,7 +91,7 @@ const ServicesSection: React.FC = () => {
             <ServiceCard
               icon={faHandshake}
               title="Diplomatic Visa"
-              description="Issued to government officials and diplomats traveling on official business, providing privileges and immunities."
+              description="Diplomatic visas are issued to government officials and diplomats for international travel related to official business."
             />
           </motion.div>
 
@@ -113,7 +104,7 @@ const ServicesSection: React.FC = () => {
             <ServiceCard
               icon={faComments}
               title="Immigration Consultation"
-              description="iGlobal Visa offers professional advice for those looking to immigrate, guiding you through legalities and documentation."
+              description="Receive expert advice on immigration processes, legal requirements, and documentation from our professional consultants."
             />
           </motion.div>
         </div>

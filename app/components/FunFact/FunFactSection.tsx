@@ -21,7 +21,7 @@ const FunFactSection: React.FC = () => {
       style={{ backgroundImage: `url('/visa2.webp')` }}
     >
       <div className="absolute inset-0 bg-black opacity-40"></div>{" "}
-      <div className="relative container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div className="relative container mx-auto px-8 md:px-16 lg:px-24 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         <FunFact icon={faSmile} value={1200} label="Satisfied Clients" />{" "}
         <FunFact icon={faMapMarkedAlt} value={70} label="Countries" />{" "}
         <FunFact icon={faBookOpen} value={750} label="Happy Students" />{" "}

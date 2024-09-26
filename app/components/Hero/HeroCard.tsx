@@ -10,8 +10,8 @@ type HeroCardProps = {
 
 const HeroCard: React.FC<HeroCardProps> = ({ title, subtitle, icon }) => {
   return (
-    <div className="flex justify-center h-full">
-      <div className="bg-white shadow px-6 py-8 text-center border-l-4 border-[#9eaf2b] rounded-md">
+    <div className="flex justify-center h-full w-full">
+      <div className="bg-white shadow px-6 py-8 text-center border-l-4 border-[#9eaf2b] rounded-md w-full">
         <div className="mb-4 text-blue-500 text-center flex justify-center">
           <FontAwesomeIcon icon={icon} className="w-20 h-20" />
         </div>
