@@ -39,8 +39,8 @@ const ContactInfo = () => {
           729093
         </p>
         <p className="mb-3">
-          <FontAwesomeIcon icon={faPhone} className="mr-2" /> Germany: +49 123
-          456 7890
+          <FontAwesomeIcon icon={faPhone} className="mr-2" /> Slovenia: +386 71
+          621 843
         </p>
 
         <p className="mb-3">
