@@ -34,14 +34,14 @@ const Header: React.FC = () => {
 
   return (
     <section className="z-50">
-      <header className="flex w-full items-center justify-between bg-[#ffffff] px-[16px] py-[10px] shadow">
+      <header className="flex w-full items-center justify-between bg-[#ffffff] py-[14px] shadow px-8 md:px-16 lg:px-24">
         <div>
           <Image
-            src="/images.png"
+            src="/main_logo.png"
             alt="logo"
             width={100}
             height={100}
-            className="w-24 h-[100px] lg:w-21 lg:h-[120px]"
+            className="w-24 h-[60px] lg:w-28 lg:h-[90px]"
           />
         </div>
 
